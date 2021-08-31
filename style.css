@@ -13,3 +13,17 @@ body {
   overflow: hidden;
   margin: 0;
 }
+.bg {
+  background: url(https://img.wallpapersafari.com/desktop/1920/1080/8/14/5K0N3M.jpg) no-repeat center center/cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vw;
+  z-index: -1;
+  filter: blur(0px);
+}
+.loading-text {
+  font-size: 50px;
+  color: white;
+}
